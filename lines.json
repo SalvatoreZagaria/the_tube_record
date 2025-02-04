@@ -1,0 +1,189 @@
+{
+    "bakerloo": {
+        "name": "Bakerloo",
+        "routes": [
+            {
+                "originator": "940GZZLUEAC",
+                "destination": "940GZZLUHAW"
+            }
+        ]
+    },
+    "central": {
+        "name": "Central",
+        "routes": [
+            {
+                "originator": "940GZZLUWRP",
+                "destination": "940GZZLUEPG"
+            },
+            {
+                "originator": "940GZZLUWRP",
+                "destination": "940GZZLUHLT"
+            },
+            {
+                "originator": "940GZZLUWRP",
+                "destination": "940GZZLUHLT"
+            },
+            {
+                "originator": "940GZZLUEBY",
+                "destination": "940GZZLUEPG"
+            },
+            {
+                "originator": "940GZZLUEBY",
+                "destination": "940GZZLUHLT"
+            }
+        ]
+    },
+    "circle": {
+        "name": "Circle",
+        "routes": [
+            {
+                "originator": "940GZZLUHSC",
+                "destination": "940GZZLUERC"
+            }
+        ]
+    },
+    "district": {
+        "name": "District",
+        "routes": [
+            {
+                "originator": "940GZZLUEBY",
+                "destination": "940GZZLUUPM"
+            },
+            {
+                "originator": "940GZZLURMD",
+                "destination": "940GZZLUUPM"
+            },
+            {
+                "originator": "940GZZLUWIM",
+                "destination": "940GZZLUUPM"
+            },
+            {
+                "originator": "940GZZLUEBY",
+                "destination": "940GZZLUERC"
+            },
+            {
+                "originator": "940GZZLURMD",
+                "destination": "940GZZLUERC"
+            },
+            {
+                "originator": "940GZZLUWIM",
+                "destination": "940GZZLUERC"
+            },
+            {
+                "originator": "940GZZLUKOY",
+                "destination": "940GZZLUERC"
+            }
+        ]
+    },
+    "hammersmith-city": {
+        "name": "Hammersmith & City",
+        "routes": [
+            {
+                "originator": "940GZZLUHSC",
+                "destination": "940GZZLUBKG"
+            }
+        ]
+    },
+    "jubilee": {
+        "name": "Jubilee",
+        "routes": [
+            {
+                "originator": "940GZZLUSTM",
+                "destination": "940GZZLUSTD"
+            }
+        ]
+    },
+    "metropolitan": {
+        "name": "Metropolitan",
+        "routes": [
+            {
+                "originator": "940GZZLUAMS",
+                "destination": "940GZZLUALD"
+            },
+            {
+                "originator": "940GZZLUCSM",
+                "destination": "940GZZLUALD"
+            },
+            {
+                "originator": "940GZZLUUXB",
+                "destination": "940GZZLUALD"
+            },
+            {
+                "originator": "940GZZLUWAF",
+                "destination": "940GZZLUALD"
+            }
+        ]
+    },
+    "northern": {
+        "name": "Northern",
+        "routes": [
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUHBT"
+            },
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUHBT"
+            },
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUEGW"
+            },
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUEGW"
+            },
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUMHL"
+            },
+            {
+                "originator": "940GZZLUMDN",
+                "destination": "940GZZLUMHL"
+            },
+            {
+                "originator": "940GZZBPSUST",
+                "destination": "940GZZLUHBT"
+            },
+            {
+                "originator": "940GZZBPSUST",
+                "destination": "940GZZLUEGW"
+            }
+        ]
+    },
+    "piccadilly": {
+        "name": "Piccadilly",
+        "routes": [
+            {
+                "originator": "940GZZLUUXB",
+                "destination": "940GZZLUCKS"
+            },
+            {
+                "originator": "940GZZLUHR4",
+                "destination": "940GZZLUCKS"
+            },
+            {
+                "originator": "940GZZLUHR5",
+                "destination": "940GZZLUCKS"
+            }
+        ]
+    },
+    "victoria": {
+        "name": "Victoria",
+        "routes": [
+            {
+                "originator": "940GZZLUBXN",
+                "destination": "940GZZLUWWL"
+            }
+        ]
+    },
+    "waterloo-city": {
+        "name": "Waterloo & City",
+        "routes": [
+            {
+                "originator": "940GZZLUWLO",
+                "destination": "940GZZLUBNK"
+            }
+        ]
+    }
+}

@@ -1,0 +1,540 @@
+{
+    "bakerloo": {
+        "0": [
+            "940GZZLUEAC",
+            "940GZZLULBN",
+            "940GZZLUWLO",
+            "940GZZLUEMB",
+            "940GZZLUCHX",
+            "940GZZLUPCC",
+            "940GZZLUOXC",
+            "940GZZLURGP",
+            "940GZZLUBST",
+            "940GZZLUMYB",
+            "940GZZLUERB",
+            "940GZZLUPAC",
+            "940GZZLUWKA",
+            "940GZZLUMVL",
+            "940GZZLUKPK",
+            "940GZZLUQPS",
+            "940GZZLUKSL",
+            "940GZZLUWJN",
+            "940GZZLUHSN",
+            "940GZZLUSGP",
+            "940GZZLUWYC",
+            "940GZZLUNWY",
+            "940GZZLUSKT",
+            "940GZZLUKEN",
+            "940GZZLUHAW"
+        ]
+    },
+    "central": {
+        "0": [
+            "940GZZLUWRP",
+            "940GZZLURSG",
+            "940GZZLUSRP",
+            "940GZZLUNHT",
+            "940GZZLUGFD",
+            "940GZZLUPVL",
+            "940GZZLUHGR",
+            "940GZZLUNAN"
+        ],
+        "1": [
+            "940GZZLUNAN",
+            "940GZZLUEAN",
+            "940GZZLUWCY",
+            "940GZZLUSBC",
+            "940GZZLUHPK",
+            "940GZZLUNHG",
+            "940GZZLUQWY",
+            "940GZZLULGT",
+            "940GZZLUMBA",
+            "940GZZLUBND",
+            "940GZZLUOXC",
+            "940GZZLUTCR",
+            "940GZZLUHBN",
+            "940GZZLUCHL",
+            "940GZZLUSPU",
+            "940GZZLUBNK",
+            "940GZZLULVT",
+            "940GZZLUBLG",
+            "940GZZLUMED",
+            "940GZZLUSTD",
+            "940GZZLULYN",
+            "940GZZLULYS"
+        ],
+        "2": [
+            "940GZZLULYS",
+            "940GZZLUSNB",
+            "940GZZLUSWF",
+            "940GZZLUWOF"
+        ],
+        "3": [
+            "940GZZLUWOF",
+            "940GZZLUBKH",
+            "940GZZLULGN",
+            "940GZZLUDBN",
+            "940GZZLUTHB",
+            "940GZZLUEPG"
+        ],
+        "4": [
+            "940GZZLULYS",
+            "940GZZLUWSD",
+            "940GZZLURBG",
+            "940GZZLUGTH",
+            "940GZZLUNBP",
+            "940GZZLUBKE",
+            "940GZZLUFLP",
+            "940GZZLUHLT"
+        ],
+        "5": [
+            "940GZZLUWOF",
+            "940GZZLURVY",
+            "940GZZLUCWL",
+            "940GZZLUGGH",
+            "940GZZLUHLT"
+        ],
+        "6": [
+            "940GZZLUEBY",
+            "940GZZLUWTA",
+            "940GZZLUNAN"
+        ]
+    },
+    "circle": {
+        "0": [
+            "940GZZLUHSC",
+            "940GZZLUGHK",
+            "940GZZLUSBM",
+            "940GZZLUWLA",
+            "940GZZLULRD",
+            "940GZZLULAD",
+            "940GZZLUWSP",
+            "940GZZLURYO",
+            "940GZZLUPAH",
+            "940GZZLUERC"
+        ],
+        "1": [
+            "940GZZLUERC",
+            "940GZZLUBST",
+            "940GZZLUGPS",
+            "940GZZLUESQ",
+            "940GZZLUKSX",
+            "940GZZLUFCN",
+            "940GZZLUBBN",
+            "940GZZLUMGT",
+            "940GZZLULVT",
+            "940GZZLUALD",
+            "940GZZLUTWH",
+            "940GZZLUMMT",
+            "940GZZLUCST",
+            "940GZZLUMSH",
+            "940GZZLUBKF",
+            "940GZZLUTMP",
+            "940GZZLUEMB",
+            "940GZZLUWSM",
+            "940GZZLUSJP",
+            "940GZZLUVIC",
+            "940GZZLUSSQ",
+            "940GZZLUSKS",
+            "940GZZLUGTR",
+            "940GZZLUHSK",
+            "940GZZLUNHG",
+            "940GZZLUBWT",
+            "940GZZLUPAC",
+            "940GZZLUERC"
+        ]
+    },
+    "district": {
+        "0": [
+            "940GZZLUEBY",
+            "940GZZLUECM",
+            "940GZZLUACT",
+            "940GZZLUCWP",
+            "940GZZLUTNG"
+        ],
+        "1": [
+            "940GZZLUTNG",
+            "940GZZLUSFB",
+            "940GZZLURVP",
+            "940GZZLUHSD",
+            "940GZZLUBSC",
+            "940GZZLUWKN",
+            "940GZZLUECT"
+        ],
+        "2": [
+            "940GZZLUECT",
+            "940GZZLUGTR",
+            "940GZZLUSKS",
+            "940GZZLUSSQ",
+            "940GZZLUVIC",
+            "940GZZLUSJP",
+            "940GZZLUWSM",
+            "940GZZLUEMB",
+            "940GZZLUTMP",
+            "940GZZLUBKF",
+            "940GZZLUMSH",
+            "940GZZLUCST",
+            "940GZZLUMMT",
+            "940GZZLUTWH",
+            "940GZZLUADE",
+            "940GZZLUWPL",
+            "940GZZLUSGN",
+            "940GZZLUMED",
+            "940GZZLUBWR",
+            "940GZZLUBBB",
+            "940GZZLUWHM",
+            "940GZZLUPLW",
+            "940GZZLUUPK",
+            "940GZZLUEHM",
+            "940GZZLUBKG",
+            "940GZZLUUPY",
+            "940GZZLUBEC",
+            "940GZZLUDGY",
+            "940GZZLUDGE",
+            "940GZZLUEPK",
+            "940GZZLUHCH",
+            "940GZZLUUPB",
+            "940GZZLUUPM"
+        ],
+        "3": [
+            "940GZZLURMD",
+            "940GZZLUKWG",
+            "940GZZLUGBY",
+            "940GZZLUTNG"
+        ],
+        "4": [
+            "940GZZLUWIM",
+            "940GZZLUWIP",
+            "940GZZLUSFS",
+            "940GZZLUEPY",
+            "940GZZLUPYB",
+            "940GZZLUPSG",
+            "940GZZLUFBY",
+            "940GZZLUWBN",
+            "940GZZLUECT"
+        ],
+        "5": [
+            "940GZZLUECT",
+            "940GZZLUHSK",
+            "940GZZLUNHG",
+            "940GZZLUBWT",
+            "940GZZLUPAC",
+            "940GZZLUERC"
+        ],
+        "6": [
+            "940GZZLUKOY",
+            "940GZZLUECT"
+        ]
+    },
+    "hammersmith-city": {
+        "0": [
+            "940GZZLUHSC",
+            "940GZZLUGHK",
+            "940GZZLUSBM",
+            "940GZZLUWLA",
+            "940GZZLULRD",
+            "940GZZLULAD",
+            "940GZZLUWSP",
+            "940GZZLURYO",
+            "940GZZLUPAH",
+            "940GZZLUERC",
+            "940GZZLUBST",
+            "940GZZLUGPS",
+            "940GZZLUESQ",
+            "940GZZLUKSX",
+            "940GZZLUFCN",
+            "940GZZLUBBN",
+            "940GZZLUMGT",
+            "940GZZLULVT",
+            "940GZZLUADE",
+            "940GZZLUWPL",
+            "940GZZLUSGN",
+            "940GZZLUMED",
+            "940GZZLUBWR",
+            "940GZZLUBBB",
+            "940GZZLUWHM",
+            "940GZZLUPLW",
+            "940GZZLUUPK",
+            "940GZZLUEHM",
+            "940GZZLUBKG"
+        ]
+    },
+    "jubilee": {
+        "0": [
+            "940GZZLUSTM",
+            "940GZZLUCPK",
+            "940GZZLUQBY",
+            "940GZZLUKBY",
+            "940GZZLUWYP",
+            "940GZZLUNDN",
+            "940GZZLUDOH",
+            "940GZZLUWIG",
+            "940GZZLUKBN",
+            "940GZZLUWHP",
+            "940GZZLUFYR",
+            "940GZZLUSWC",
+            "940GZZLUSJW",
+            "940GZZLUBST",
+            "940GZZLUBND",
+            "940GZZLUGPK",
+            "940GZZLUWSM",
+            "940GZZLUWLO",
+            "940GZZLUSWK",
+            "940GZZLULNB",
+            "940GZZLUBMY",
+            "940GZZLUCWR",
+            "940GZZLUCYF",
+            "940GZZLUNGW",
+            "940GZZLUCGT",
+            "940GZZLUWHM",
+            "940GZZLUSTD"
+        ]
+    },
+    "metropolitan": {
+        "0": [
+            "940GZZLUAMS",
+            "940GZZLUCAL"
+        ],
+        "1": [
+            "940GZZLUCAL",
+            "940GZZLUCYD",
+            "940GZZLURKW",
+            "940GZZLUMPK"
+        ],
+        "2": [
+            "940GZZLUMPK",
+            "940GZZLUNOW",
+            "940GZZLUNWH",
+            "940GZZLUPNR",
+            "940GZZLUNHA",
+            "940GZZLUHOH"
+        ],
+        "3": [
+            "940GZZLUHOH",
+            "940GZZLUNKP",
+            "940GZZLUPRD",
+            "940GZZLUWYP"
+        ],
+        "4": [
+            "940GZZLUFYR",
+            "940GZZLUBST",
+            "940GZZLUGPS",
+            "940GZZLUESQ",
+            "940GZZLUKSX",
+            "940GZZLUFCN",
+            "940GZZLUBBN",
+            "940GZZLUMGT",
+            "940GZZLULVT",
+            "940GZZLUALD"
+        ],
+        "5": [
+            "940GZZLUWYP",
+            "940GZZLUWIG",
+            "940GZZLUFYR"
+        ],
+        "6": [
+            "940GZZLUWYP",
+            "940GZZLUFYR"
+        ],
+        "7": [
+            "940GZZLUCSM",
+            "940GZZLUCAL"
+        ],
+        "8": [
+            "940GZZLUUXB",
+            "940GZZLUHGD",
+            "940GZZLUICK",
+            "940GZZLURSP",
+            "940GZZLURSM",
+            "940GZZLUEAE",
+            "940GZZLURYL",
+            "940GZZLUWHW",
+            "940GZZLUHOH"
+        ],
+        "9": [
+            "940GZZLUWAF",
+            "940GZZLUCXY",
+            "940GZZLUMPK"
+        ]
+    },
+    "northern": {
+        "0": [
+            "940GZZLUMDN",
+            "940GZZLUSWN",
+            "940GZZLUCSD",
+            "940GZZLUTBY",
+            "940GZZLUTBC",
+            "940GZZLUBLM",
+            "940GZZLUCPS",
+            "940GZZLUCPC",
+            "940GZZLUCPN",
+            "940GZZLUSKW",
+            "940GZZLUOVL",
+            "940GZZLUKNG"
+        ],
+        "1": [
+            "940GZZLUKNG",
+            "940GZZLUWLO",
+            "940GZZLUEMB",
+            "940GZZLUCHX",
+            "940GZZLULSQ",
+            "940GZZLUTCR",
+            "940GZZLUGDG",
+            "940GZZLUWRR",
+            "940GZZLUEUS"
+        ],
+        "2": [
+            "940GZZLUEUS",
+            "940GZZLUMTC",
+            "940GZZLUCTN"
+        ],
+        "3": [
+            "940GZZLUCTN",
+            "940GZZLUKSH",
+            "940GZZLUTFP",
+            "940GZZLUACY",
+            "940GZZLUHGT",
+            "940GZZLUEFY",
+            "940GZZLUFYC"
+        ],
+        "4": [
+            "940GZZLUFYC",
+            "940GZZLUWFN",
+            "940GZZLUWOP",
+            "940GZZLUTAW",
+            "940GZZLUHBT"
+        ],
+        "5": [
+            "940GZZLUKNG",
+            "940GZZLUEAC",
+            "940GZZLUBOR",
+            "940GZZLULNB",
+            "940GZZLUBNK",
+            "940GZZLUMGT",
+            "940GZZLUODS",
+            "940GZZLUAGL",
+            "940GZZLUKSX",
+            "940GZZLUEUS"
+        ],
+        "6": [
+            "940GZZLUEUS",
+            "940GZZLUCTN"
+        ],
+        "7": [
+            "940GZZLUCTN",
+            "940GZZLUCFM",
+            "940GZZLUBZP",
+            "940GZZLUHTD",
+            "940GZZLUGGN",
+            "940GZZLUBTX",
+            "940GZZLUHCL",
+            "940GZZLUCND",
+            "940GZZLUBTK",
+            "940GZZLUEGW"
+        ],
+        "8": [
+            "940GZZLUFYC",
+            "940GZZLUMHL"
+        ],
+        "9": [
+            "940GZZBPSUST",
+            "940GZZNEUGST",
+            "940GZZLUKNG"
+        ]
+    },
+    "piccadilly": {
+        "0": [
+            "940GZZLUUXB",
+            "940GZZLUHGD",
+            "940GZZLUICK",
+            "940GZZLURSP",
+            "940GZZLURSM",
+            "940GZZLUEAE",
+            "940GZZLURYL",
+            "940GZZLUSHH",
+            "940GZZLUSUH",
+            "940GZZLUSUT",
+            "940GZZLUALP",
+            "940GZZLUPKR",
+            "940GZZLUNEN",
+            "940GZZLUECM",
+            "940GZZLUACT"
+        ],
+        "1": [
+            "940GZZLUACT",
+            "940GZZLUTNG",
+            "940GZZLUHSD",
+            "940GZZLUBSC",
+            "940GZZLUECT",
+            "940GZZLUGTR",
+            "940GZZLUSKS",
+            "940GZZLUKNB",
+            "940GZZLUHPC",
+            "940GZZLUGPK",
+            "940GZZLUPCC",
+            "940GZZLULSQ",
+            "940GZZLUCGN",
+            "940GZZLUHBN",
+            "940GZZLURSQ",
+            "940GZZLUKSX",
+            "940GZZLUCAR",
+            "940GZZLUHWY",
+            "940GZZLUASL",
+            "940GZZLUFPK",
+            "940GZZLUMRH",
+            "940GZZLUTPN",
+            "940GZZLUWOG",
+            "940GZZLUBDS",
+            "940GZZLUASG",
+            "940GZZLUSGT",
+            "940GZZLUOAK",
+            "940GZZLUCKS"
+        ],
+        "2": [
+            "940GZZLUHR4",
+            "940GZZLUHRC"
+        ],
+        "3": [
+            "940GZZLUHRC",
+            "940GZZLUHNX",
+            "940GZZLUHWT",
+            "940GZZLUHWC",
+            "940GZZLUHWE",
+            "940GZZLUOSY",
+            "940GZZLUBOS",
+            "940GZZLUNFD",
+            "940GZZLUSEA",
+            "940GZZLUACT"
+        ],
+        "4": [
+            "940GZZLUHR5",
+            "940GZZLUHRC"
+        ]
+    },
+    "victoria": {
+        "0": [
+            "940GZZLUBXN",
+            "940GZZLUSKW",
+            "940GZZLUVXL",
+            "940GZZLUPCO",
+            "940GZZLUVIC",
+            "940GZZLUGPK",
+            "940GZZLUOXC",
+            "940GZZLUWRR",
+            "940GZZLUEUS",
+            "940GZZLUKSX",
+            "940GZZLUHAI",
+            "940GZZLUFPK",
+            "940GZZLUSVS",
+            "940GZZLUTMH",
+            "940GZZLUBLR",
+            "940GZZLUWWL"
+        ]
+    },
+    "waterloo-city": {
+        "0": [
+            "940GZZLUWLO",
+            "940GZZLUBNK"
+        ]
+    }
+}
