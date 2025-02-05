@@ -1,8 +1,8 @@
 import typing as t
 import json
 
+import multiprocessing
 import networkx as nx
-from tqdm import tqdm
 
 
 with open('lines.json', 'r') as f:
@@ -79,7 +79,8 @@ def build_graph(stations: t.Dict[str, Station], raw_intervals: dict) -> nx.Graph
 
     for line_id, branches in raw_intervals.items():
         for branch_id, routes in branches.items():
-            for start_station, target_dict in routes.items():
+            for start_station, _target_dict in routes.items():
+                target_dict = {k: v for k, v in sorted(_target_dict.items(), key=lambda j: j[1])}
                 all_stations = [start_station] + list(target_dict.keys())
                 times = {}
                 for i in range(len(all_stations) - 1):
@@ -88,19 +89,12 @@ def build_graph(stations: t.Dict[str, Station], raw_intervals: dict) -> nx.Graph
                     times[(first_station, target_station)] = float(target_dict[target_station] - target_dict.get(first_station, 0))
 
                 for (first_station, second_station), travel_time in times.items():
-                    if first_station in stations and second_station in stations:
-                        if G.has_edge(first_station, second_station):
-                            current_weight = G[first_station][second_station]['weight']
-                            if travel_time < current_weight:
-                                G[start_station][target_station]['weight'] = travel_time
-                                G[start_station][target_station]['lines'].add(line_id)
-                        else:
-                            G.add_edge(
-                                start_station,
-                                target_station,
-                                weight=travel_time,
-                                lines={line_id}
-                            )
+                    G.add_edge(
+                        first_station,
+                        second_station,
+                        weight=travel_time,
+                        lines={line_id}
+                        )
     return G
 
 
@@ -130,27 +124,27 @@ def full_tsp_path(G: nx.Graph, tsp_order: t.List[str]) -> t.List[str]:
     return full_route
 
 
-def tsp_main():
-    lines, stations, line_routes = build_network()
-    G = build_graph(stations, raw_intervals)
-
-    start_station = next(iter(G.nodes()))
-    print(f"Starting TSP at station: {start_station}")
-
-    tsp_order = tsp_nearest_neighbor(G, start_station)
-    print("TSP order (by station IDs):")
-    print(" -> ".join(tsp_order))
-
-    full_route = full_tsp_path(G, tsp_order)
-    print("\nFull route (visiting all stations, including intermediate nodes on each leg):")
-    print(" -> ".join(full_route))
-
+def tsp_main(g, start_station):
+    tsp_order = tsp_nearest_neighbor(g, start_station)
+    full_route = full_tsp_path(g, tsp_order)
     total_time = 0
     for i in range(len(tsp_order) - 1):
-        leg_time = nx.dijkstra_path_length(G, tsp_order[i], tsp_order[i + 1], weight='weight')
+        leg_time = nx.dijkstra_path_length(g, tsp_order[i], tsp_order[i + 1], weight='weight')
         total_time += leg_time
-    print(f"\nTotal travel time (approximation): {total_time} minutes")
+
+    return {'start_station': start_station, 'route': full_route, 'time': total_time}
+
+
+def main():
+    lines, stations, line_routes = build_network()
+    g = build_graph(stations, raw_intervals)
+
+    with multiprocessing.Pool() as pool:
+        results = pool.starmap(tsp_main, [(g, station) for station in stations])
+
+    with open('results.json', 'w') as f:
+        json.dump(results, f, indent=4)
 
 
 if __name__ == '__main__':
-    tsp_main()
+    main()
