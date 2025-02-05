@@ -57,10 +57,25 @@ def get_timetable(line, start, end):
             time.sleep(10)
 
 stations_path = Path('stations.json')
-intervals_path = Path('intervals.json')
-
-if not (stations_path.exists() and intervals_path.exists()):
+if not stations_path.exists():
     stations = {}
+    for line in lines:
+        r = requests.get(f'https://api.tfl.gov.uk/Line/{line}/StopPoints')
+        res = r.json()
+        for station in res:
+            if 'tube' not in station['modes']:
+                continue
+            stations[station['id']] = {
+                'name': station['commonName'],
+                'lines': [l['id'] for l in station['lines'] if l['id'] in lines]
+            }
+
+    with open(stations_path, 'w') as f:
+        json.dump(stations, f, indent=4)
+
+
+intervals_path = Path('intervals.json')
+if not intervals_path.exists():
     intervals = {}
 
     for line in stops:
@@ -71,22 +86,11 @@ if not (stations_path.exists() and intervals_path.exists()):
             if res is None:
                 raise Exception('')
 
-            for station in res['stations']:
-                if 'tube' not in station['modes']:
-                    continue
-                stations[station['id']] = {
-                    'name': station['name'],
-                    'lines': [l['id'] for l in station['lines'] if l['id'] in lines]
-                }
-
             intervals[line][branch][stops[line][branch][0]] = {}
             for route in res['timetable']['routes']:
                 for s_interval in route['stationIntervals']:
                     for interval in s_interval['intervals']:
                         intervals[line][branch][stops[line][branch][0]][interval['stopId']] = interval['timeToArrival']
-
-    with open(stations_path, 'w') as f:
-        json.dump(stations, f, indent=4)
 
     with open(intervals_path, 'w') as f:
         json.dump(intervals, f, indent=4)

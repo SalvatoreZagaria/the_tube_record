@@ -9,6 +9,20 @@
             "metropolitan"
         ]
     },
+    "940GZZLUCHX": {
+        "name": "Charing Cross Underground Station",
+        "lines": [
+            "bakerloo",
+            "northern"
+        ]
+    },
+    "940GZZLUEAC": {
+        "name": "Elephant & Castle Underground Station",
+        "lines": [
+            "bakerloo",
+            "northern"
+        ]
+    },
     "940GZZLUEMB": {
         "name": "Embankment Underground Station",
         "lines": [
@@ -24,8 +38,32 @@
             "bakerloo"
         ]
     },
+    "940GZZLUHAW": {
+        "name": "Harrow & Wealdstone Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUHSN": {
+        "name": "Harlesden Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUKEN": {
+        "name": "Kenton Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
     "940GZZLUKPK": {
         "name": "Kilburn Park Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUKSL": {
+        "name": "Kensal Green Underground Station",
         "lines": [
             "bakerloo"
         ]
@@ -42,12 +80,32 @@
             "bakerloo"
         ]
     },
+    "940GZZLUMYB": {
+        "name": "Marylebone Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUNWY": {
+        "name": "North Wembley Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
     "940GZZLUOXC": {
         "name": "Oxford Circus Underground Station",
         "lines": [
             "bakerloo",
             "central",
             "victoria"
+        ]
+    },
+    "940GZZLUPAC": {
+        "name": "Paddington Underground Station",
+        "lines": [
+            "bakerloo",
+            "circle",
+            "district"
         ]
     },
     "940GZZLUPCC": {
@@ -57,8 +115,32 @@
             "piccadilly"
         ]
     },
+    "940GZZLUQPS": {
+        "name": "Queen's Park Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
     "940GZZLURGP": {
         "name": "Regent's Park Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUSGP": {
+        "name": "Stonebridge Park Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUSKT": {
+        "name": "South Kenton Underground Station",
+        "lines": [
+            "bakerloo"
+        ]
+    },
+    "940GZZLUWJN": {
+        "name": "Willesden Junction Underground Station",
         "lines": [
             "bakerloo"
         ]
@@ -69,85 +151,8 @@
             "bakerloo"
         ]
     },
-    "HUBCHX": {
-        "name": "Charing Cross",
-        "lines": [
-            "bakerloo",
-            "northern"
-        ]
-    },
-    "HUBEPH": {
-        "name": "Elephant & Castle",
-        "lines": [
-            "bakerloo",
-            "northern"
-        ]
-    },
-    "HUBHDN": {
-        "name": "Harlesden",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBHRW": {
-        "name": "Harrow & Wealdstone",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBKNL": {
-        "name": "Kensal Green",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBKNT": {
-        "name": "Kenton",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBMYB": {
-        "name": "Marylebone",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBNWB": {
-        "name": "North Wembley",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBPAD": {
-        "name": "Paddington",
-        "lines": [
-            "bakerloo",
-            "circle",
-            "district",
-            "hammersmith-city"
-        ]
-    },
-    "HUBQPW": {
-        "name": "Queen's Park",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBSBP": {
-        "name": "Stonebridge Park",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBSOK": {
-        "name": "South Kenton",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBWAT": {
-        "name": "Waterloo",
+    "940GZZLUWLO": {
+        "name": "Waterloo Underground Station",
         "lines": [
             "bakerloo",
             "jubilee",
@@ -155,14 +160,8 @@
             "waterloo-city"
         ]
     },
-    "HUBWIJ": {
-        "name": "Willesden Junction",
-        "lines": [
-            "bakerloo"
-        ]
-    },
-    "HUBWMB": {
-        "name": "Wembley Central",
+    "940GZZLUWYC": {
+        "name": "Wembley Central Underground Station",
         "lines": [
             "bakerloo"
         ]
@@ -183,6 +182,21 @@
         "name": "Bethnal Green Underground Station",
         "lines": [
             "central"
+        ]
+    },
+    "940GZZLUBND": {
+        "name": "Bond Street Underground Station",
+        "lines": [
+            "central",
+            "jubilee"
+        ]
+    },
+    "940GZZLUBNK": {
+        "name": "Bank Underground Station",
+        "lines": [
+            "central",
+            "northern",
+            "waterloo-city"
         ]
     },
     "940GZZLUCHL": {
@@ -209,6 +223,13 @@
             "central"
         ]
     },
+    "940GZZLUEBY": {
+        "name": "Ealing Broadway Underground Station",
+        "lines": [
+            "central",
+            "district"
+        ]
+    },
     "940GZZLUEPG": {
         "name": "Epping Underground Station",
         "lines": [
@@ -217,6 +238,12 @@
     },
     "940GZZLUFLP": {
         "name": "Fairlop Underground Station",
+        "lines": [
+            "central"
+        ]
+    },
+    "940GZZLUGFD": {
+        "name": "Greenford Underground Station",
         "lines": [
             "central"
         ]
@@ -268,6 +295,15 @@
         "name": "Lancaster Gate Underground Station",
         "lines": [
             "central"
+        ]
+    },
+    "940GZZLULVT": {
+        "name": "Liverpool Street Underground Station",
+        "lines": [
+            "central",
+            "circle",
+            "hammersmith-city",
+            "metropolitan"
         ]
     },
     "940GZZLULYN": {
@@ -352,6 +388,12 @@
             "central"
         ]
     },
+    "940GZZLUSBC": {
+        "name": "Shepherd's Bush (Central) Underground Station",
+        "lines": [
+            "central"
+        ]
+    },
     "940GZZLUSNB": {
         "name": "Snaresbrook Underground Station",
         "lines": [
@@ -364,10 +406,30 @@
             "central"
         ]
     },
+    "940GZZLUSRP": {
+        "name": "South Ruislip Underground Station",
+        "lines": [
+            "central"
+        ]
+    },
+    "940GZZLUSTD": {
+        "name": "Stratford Underground Station",
+        "lines": [
+            "central",
+            "jubilee"
+        ]
+    },
     "940GZZLUSWF": {
         "name": "South Woodford Underground Station",
         "lines": [
             "central"
+        ]
+    },
+    "940GZZLUTCR": {
+        "name": "Tottenham Court Road Underground Station",
+        "lines": [
+            "central",
+            "northern"
         ]
     },
     "940GZZLUTHB": {
@@ -388,6 +450,12 @@
             "central"
         ]
     },
+    "940GZZLUWRP": {
+        "name": "West Ruislip Underground Station",
+        "lines": [
+            "central"
+        ]
+    },
     "940GZZLUWSD": {
         "name": "Wanstead Underground Station",
         "lines": [
@@ -396,75 +464,6 @@
     },
     "940GZZLUWTA": {
         "name": "West Acton Underground Station",
-        "lines": [
-            "central"
-        ]
-    },
-    "HUBBAN": {
-        "name": "Bank",
-        "lines": [
-            "central",
-            "northern",
-            "waterloo-city"
-        ]
-    },
-    "HUBBDS": {
-        "name": "Bond Street",
-        "lines": [
-            "central",
-            "jubilee"
-        ]
-    },
-    "HUBEAL": {
-        "name": "Ealing Broadway",
-        "lines": [
-            "central",
-            "district"
-        ]
-    },
-    "HUBGFD": {
-        "name": "Greenford",
-        "lines": [
-            "central"
-        ]
-    },
-    "HUBLST": {
-        "name": "Liverpool Street",
-        "lines": [
-            "central",
-            "circle",
-            "hammersmith-city",
-            "metropolitan"
-        ]
-    },
-    "HUBSPB": {
-        "name": "Shepherd's Bush",
-        "lines": [
-            "central"
-        ]
-    },
-    "HUBSRA": {
-        "name": "Stratford",
-        "lines": [
-            "central",
-            "jubilee"
-        ]
-    },
-    "HUBSRU": {
-        "name": "South Ruislip",
-        "lines": [
-            "central"
-        ]
-    },
-    "HUBTCR": {
-        "name": "Tottenham Court Road",
-        "lines": [
-            "central",
-            "northern"
-        ]
-    },
-    "HUBWRU": {
-        "name": "West Ruislip",
         "lines": [
             "central"
         ]
@@ -484,8 +483,22 @@
             "metropolitan"
         ]
     },
+    "940GZZLUBKF": {
+        "name": "Blackfriars Underground Station",
+        "lines": [
+            "circle",
+            "district"
+        ]
+    },
     "940GZZLUBWT": {
         "name": "Bayswater Underground Station",
+        "lines": [
+            "circle",
+            "district"
+        ]
+    },
+    "940GZZLUCST": {
+        "name": "Cannon Street Underground Station",
         "lines": [
             "circle",
             "district"
@@ -501,6 +514,14 @@
     },
     "940GZZLUESQ": {
         "name": "Euston Square Underground Station",
+        "lines": [
+            "circle",
+            "hammersmith-city",
+            "metropolitan"
+        ]
+    },
+    "940GZZLUFCN": {
+        "name": "Farringdon Underground Station",
         "lines": [
             "circle",
             "hammersmith-city",
@@ -530,11 +551,29 @@
             "piccadilly"
         ]
     },
+    "940GZZLUHSC": {
+        "name": "Hammersmith (H&C Line) Underground Station",
+        "lines": [
+            "circle",
+            "hammersmith-city"
+        ]
+    },
     "940GZZLUHSK": {
         "name": "High Street Kensington Underground Station",
         "lines": [
             "circle",
             "district"
+        ]
+    },
+    "940GZZLUKSX": {
+        "name": "King's Cross St. Pancras Underground Station",
+        "lines": [
+            "circle",
+            "hammersmith-city",
+            "metropolitan",
+            "northern",
+            "piccadilly",
+            "victoria"
         ]
     },
     "940GZZLULAD": {
@@ -551,6 +590,15 @@
             "hammersmith-city"
         ]
     },
+    "940GZZLUMGT": {
+        "name": "Moorgate Underground Station",
+        "lines": [
+            "circle",
+            "hammersmith-city",
+            "metropolitan",
+            "northern"
+        ]
+    },
     "940GZZLUMMT": {
         "name": "Monument Underground Station",
         "lines": [
@@ -563,6 +611,13 @@
         "lines": [
             "circle",
             "district"
+        ]
+    },
+    "940GZZLUPAH": {
+        "name": "Paddington (H&C Line)-Underground",
+        "lines": [
+            "circle",
+            "hammersmith-city"
         ]
     },
     "940GZZLURYO": {
@@ -615,6 +670,14 @@
             "district"
         ]
     },
+    "940GZZLUVIC": {
+        "name": "Victoria Underground Station",
+        "lines": [
+            "circle",
+            "district",
+            "victoria"
+        ]
+    },
     "940GZZLUWLA": {
         "name": "Wood Lane Underground Station",
         "lines": [
@@ -622,78 +685,19 @@
             "hammersmith-city"
         ]
     },
-    "940GZZLUWSP": {
-        "name": "Westbourne Park Underground Station",
-        "lines": [
-            "circle",
-            "hammersmith-city"
-        ]
-    },
-    "HUBBFR": {
-        "name": "Blackfriars",
-        "lines": [
-            "circle",
-            "district"
-        ]
-    },
-    "HUBCST": {
-        "name": "Cannon Street",
-        "lines": [
-            "circle",
-            "district"
-        ]
-    },
-    "HUBHMS": {
-        "name": "Hammersmith",
-        "lines": [
-            "circle",
-            "district",
-            "hammersmith-city",
-            "piccadilly"
-        ]
-    },
-    "HUBKGX": {
-        "name": "King's Cross & St Pancras International",
-        "lines": [
-            "circle",
-            "hammersmith-city",
-            "metropolitan",
-            "northern",
-            "piccadilly",
-            "victoria"
-        ]
-    },
-    "HUBVIC": {
-        "name": "Victoria",
-        "lines": [
-            "circle",
-            "district",
-            "victoria"
-        ]
-    },
-    "HUBWSM": {
-        "name": "Westminster",
+    "940GZZLUWSM": {
+        "name": "Westminster Underground Station",
         "lines": [
             "circle",
             "district",
             "jubilee"
         ]
     },
-    "HUBZFD": {
-        "name": "Farringdon",
+    "940GZZLUWSP": {
+        "name": "Westbourne Park Underground Station",
         "lines": [
             "circle",
-            "hammersmith-city",
-            "metropolitan"
-        ]
-    },
-    "HUBZMG": {
-        "name": "Moorgate",
-        "lines": [
-            "circle",
-            "hammersmith-city",
-            "metropolitan",
-            "northern"
+            "hammersmith-city"
         ]
     },
     "940GZZLUACT": {
@@ -721,6 +725,13 @@
         "name": "Becontree Underground Station",
         "lines": [
             "district"
+        ]
+    },
+    "940GZZLUBKG": {
+        "name": "Barking Underground Station",
+        "lines": [
+            "district",
+            "hammersmith-city"
         ]
     },
     "940GZZLUBSC": {
@@ -794,8 +805,33 @@
             "district"
         ]
     },
+    "940GZZLUGBY": {
+        "name": "Gunnersbury Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
     "940GZZLUHCH": {
         "name": "Hornchurch Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
+    "940GZZLUHSD": {
+        "name": "Hammersmith (Dist&Picc Line) Underground Station",
+        "lines": [
+            "district",
+            "piccadilly"
+        ]
+    },
+    "940GZZLUKOY": {
+        "name": "Kensington (Olympia) Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
+    "940GZZLUKWG": {
+        "name": "Kew Gardens Underground Station",
         "lines": [
             "district"
         ]
@@ -815,6 +851,12 @@
     },
     "940GZZLUPYB": {
         "name": "Putney Bridge Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
+    "940GZZLURMD": {
+        "name": "Richmond Underground Station",
         "lines": [
             "district"
         ]
@@ -864,8 +906,34 @@
             "hammersmith-city"
         ]
     },
+    "940GZZLUUPM": {
+        "name": "Upminster Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
     "940GZZLUUPY": {
         "name": "Upney Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
+    "940GZZLUWBN": {
+        "name": "West Brompton Underground Station",
+        "lines": [
+            "district"
+        ]
+    },
+    "940GZZLUWHM": {
+        "name": "West Ham Underground Station",
+        "lines": [
+            "district",
+            "hammersmith-city",
+            "jubilee"
+        ]
+    },
+    "940GZZLUWIM": {
+        "name": "Wimbledon Underground Station",
         "lines": [
             "district"
         ]
@@ -882,65 +950,8 @@
             "district"
         ]
     },
-    "HUBBKG": {
-        "name": "Barking",
-        "lines": [
-            "district",
-            "hammersmith-city"
-        ]
-    },
-    "HUBGUN": {
-        "name": "Gunnersbury",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBKPA": {
-        "name": "Kensington (Olympia)",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBKWG": {
-        "name": "Kew Gardens",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBRMD": {
-        "name": "Richmond",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBUPM": {
-        "name": "Upminster",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBWBP": {
-        "name": "West Brompton",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBWEH": {
-        "name": "West Ham",
-        "lines": [
-            "district",
-            "hammersmith-city",
-            "jubilee"
-        ]
-    },
-    "HUBWIM": {
-        "name": "Wimbledon",
-        "lines": [
-            "district"
-        ]
-    },
-    "HUBZWL": {
-        "name": "Whitechapel",
+    "940GZZLUWPL": {
+        "name": "Whitechapel Underground Station",
         "lines": [
             "district",
             "hammersmith-city"
@@ -952,8 +963,26 @@
             "jubilee"
         ]
     },
+    "940GZZLUCGT": {
+        "name": "Canning Town Underground Station",
+        "lines": [
+            "jubilee"
+        ]
+    },
     "940GZZLUCPK": {
         "name": "Canons Park Underground Station",
+        "lines": [
+            "jubilee"
+        ]
+    },
+    "940GZZLUCWR": {
+        "name": "Canada Water Underground Station",
+        "lines": [
+            "jubilee"
+        ]
+    },
+    "940GZZLUCYF": {
+        "name": "Canary Wharf Underground Station",
         "lines": [
             "jubilee"
         ]
@@ -991,8 +1020,21 @@
             "jubilee"
         ]
     },
+    "940GZZLULNB": {
+        "name": "London Bridge Underground Station",
+        "lines": [
+            "jubilee",
+            "northern"
+        ]
+    },
     "940GZZLUNDN": {
         "name": "Neasden Underground Station",
+        "lines": [
+            "jubilee"
+        ]
+    },
+    "940GZZLUNGW": {
+        "name": "North Greenwich Underground Station",
         "lines": [
             "jubilee"
         ]
@@ -1027,6 +1069,12 @@
             "jubilee"
         ]
     },
+    "940GZZLUWHP": {
+        "name": "West Hampstead Underground Station",
+        "lines": [
+            "jubilee"
+        ]
+    },
     "940GZZLUWIG": {
         "name": "Willesden Green Underground Station",
         "lines": [
@@ -1041,41 +1089,16 @@
             "metropolitan"
         ]
     },
-    "HUBCAN": {
-        "name": "Canning Town",
+    "940GZZLUAMS": {
+        "name": "Amersham Underground Station",
         "lines": [
-            "jubilee"
+            "metropolitan"
         ]
     },
-    "HUBCAW": {
-        "name": "Canary Wharf",
+    "940GZZLUCAL": {
+        "name": "Chalfont & Latimer Underground Station",
         "lines": [
-            "jubilee"
-        ]
-    },
-    "HUBLBG": {
-        "name": "London Bridge",
-        "lines": [
-            "jubilee",
-            "northern"
-        ]
-    },
-    "HUBNGW": {
-        "name": "North Greenwich",
-        "lines": [
-            "jubilee"
-        ]
-    },
-    "HUBWHD": {
-        "name": "West Hampstead",
-        "lines": [
-            "jubilee"
-        ]
-    },
-    "HUBZCW": {
-        "name": "Canada Water",
-        "lines": [
-            "jubilee"
+            "metropolitan"
         ]
     },
     "940GZZLUCSM": {
@@ -1086,6 +1109,12 @@
     },
     "940GZZLUCXY": {
         "name": "Croxley Underground Station",
+        "lines": [
+            "metropolitan"
+        ]
+    },
+    "940GZZLUCYD": {
+        "name": "Chorleywood Underground Station",
         "lines": [
             "metropolitan"
         ]
@@ -1102,6 +1131,12 @@
         "lines": [
             "metropolitan",
             "piccadilly"
+        ]
+    },
+    "940GZZLUHOH": {
+        "name": "Harrow-on-the-Hill Underground Station",
+        "lines": [
+            "metropolitan"
         ]
     },
     "940GZZLUICK": {
@@ -1153,6 +1188,12 @@
             "metropolitan"
         ]
     },
+    "940GZZLURKW": {
+        "name": "Rickmansworth Underground Station",
+        "lines": [
+            "metropolitan"
+        ]
+    },
     "940GZZLURSM": {
         "name": "Ruislip Manor Underground Station",
         "lines": [
@@ -1193,36 +1234,6 @@
             "metropolitan"
         ]
     },
-    "HUBAMR": {
-        "name": "Amersham",
-        "lines": [
-            "metropolitan"
-        ]
-    },
-    "HUBCFO": {
-        "name": "Chalfont & Latimer",
-        "lines": [
-            "metropolitan"
-        ]
-    },
-    "HUBCLW": {
-        "name": "Chorleywood",
-        "lines": [
-            "metropolitan"
-        ]
-    },
-    "HUBHOH": {
-        "name": "Harrow-on-the-Hill",
-        "lines": [
-            "metropolitan"
-        ]
-    },
-    "HUBRIC": {
-        "name": "Rickmansworth",
-        "lines": [
-            "metropolitan"
-        ]
-    },
     "940GZZBPSUST": {
         "name": "Battersea Power Station Underground Station",
         "lines": [
@@ -1237,6 +1248,12 @@
     },
     "940GZZLUAGL": {
         "name": "Angel Underground Station",
+        "lines": [
+            "northern"
+        ]
+    },
+    "940GZZLUBLM": {
+        "name": "Balham Underground Station",
         "lines": [
             "northern"
         ]
@@ -1319,6 +1336,13 @@
             "northern"
         ]
     },
+    "940GZZLUEUS": {
+        "name": "Euston Underground Station",
+        "lines": [
+            "northern",
+            "victoria"
+        ]
+    },
     "940GZZLUFYC": {
         "name": "Finchley Central Underground Station",
         "lines": [
@@ -1367,6 +1391,12 @@
             "northern"
         ]
     },
+    "940GZZLUKSH": {
+        "name": "Kentish Town Underground Station",
+        "lines": [
+            "northern"
+        ]
+    },
     "940GZZLULSQ": {
         "name": "Leicester Square Underground Station",
         "lines": [
@@ -1388,6 +1418,12 @@
     },
     "940GZZLUMTC": {
         "name": "Mornington Crescent Underground Station",
+        "lines": [
+            "northern"
+        ]
+    },
+    "940GZZLUODS": {
+        "name": "Old Street Underground Station",
         "lines": [
             "northern"
         ]
@@ -1460,31 +1496,6 @@
             "northern"
         ]
     },
-    "HUBBAL": {
-        "name": "Balham",
-        "lines": [
-            "northern"
-        ]
-    },
-    "HUBEUS": {
-        "name": "Euston",
-        "lines": [
-            "northern",
-            "victoria"
-        ]
-    },
-    "HUBKTN": {
-        "name": "Kentish Town",
-        "lines": [
-            "northern"
-        ]
-    },
-    "HUBOLD": {
-        "name": "Old Street",
-        "lines": [
-            "northern"
-        ]
-    },
     "940GZZLUALP": {
         "name": "Alperton Underground Station",
         "lines": [
@@ -1533,6 +1544,13 @@
             "piccadilly"
         ]
     },
+    "940GZZLUFPK": {
+        "name": "Finsbury Park Underground Station",
+        "lines": [
+            "piccadilly",
+            "victoria"
+        ]
+    },
     "940GZZLUHNX": {
         "name": "Hatton Cross Underground Station",
         "lines": [
@@ -1541,6 +1559,24 @@
     },
     "940GZZLUHPC": {
         "name": "Hyde Park Corner Underground Station",
+        "lines": [
+            "piccadilly"
+        ]
+    },
+    "940GZZLUHR4": {
+        "name": "Heathrow Terminal 4 Underground Station",
+        "lines": [
+            "piccadilly"
+        ]
+    },
+    "940GZZLUHR5": {
+        "name": "Heathrow Terminal 5 Underground Station",
+        "lines": [
+            "piccadilly"
+        ]
+    },
+    "940GZZLUHRC": {
+        "name": "Heathrow Terminals 2 & 3 Underground Station",
         "lines": [
             "piccadilly"
         ]
@@ -1659,29 +1695,22 @@
             "piccadilly"
         ]
     },
-    "HUBFPK": {
-        "name": "Finsbury Park",
+    "940GZZLUBLR": {
+        "name": "Blackhorse Road Underground Station",
         "lines": [
-            "piccadilly",
             "victoria"
         ]
     },
-    "HUBH13": {
-        "name": "Heathrow Terminals 2 & 3",
+    "940GZZLUBXN": {
+        "name": "Brixton Underground Station",
         "lines": [
-            "piccadilly"
+            "victoria"
         ]
     },
-    "HUBHX4": {
-        "name": "Heathrow Airport Terminal 4",
+    "940GZZLUHAI": {
+        "name": "Highbury & Islington Underground Station",
         "lines": [
-            "piccadilly"
-        ]
-    },
-    "HUBHX5": {
-        "name": "Heathrow Airport Terminal 5",
-        "lines": [
-            "piccadilly"
+            "victoria"
         ]
     },
     "940GZZLUPCO": {
@@ -1690,44 +1719,26 @@
             "victoria"
         ]
     },
-    "HUBBHO": {
-        "name": "Blackhorse Road",
+    "940GZZLUSVS": {
+        "name": "Seven Sisters Underground Station",
         "lines": [
             "victoria"
         ]
     },
-    "HUBBRX": {
-        "name": "Brixton",
+    "940GZZLUTMH": {
+        "name": "Tottenham Hale Underground Station",
         "lines": [
             "victoria"
         ]
     },
-    "HUBHHY": {
-        "name": "Highbury & Islington",
+    "940GZZLUVXL": {
+        "name": "Vauxhall Underground Station",
         "lines": [
             "victoria"
         ]
     },
-    "HUBSVS": {
-        "name": "Seven Sisters",
-        "lines": [
-            "victoria"
-        ]
-    },
-    "HUBTOM": {
-        "name": "Tottenham Hale",
-        "lines": [
-            "victoria"
-        ]
-    },
-    "HUBVXH": {
-        "name": "Vauxhall",
-        "lines": [
-            "victoria"
-        ]
-    },
-    "HUBWHC": {
-        "name": "Walthamstow Central",
+    "940GZZLUWWL": {
+        "name": "Walthamstow Central Underground Station",
         "lines": [
             "victoria"
         ]
