@@ -1,7 +1,8 @@
 import typing as t
 import json
-
 import multiprocessing
+
+import heapq
 import networkx as nx
 
 
@@ -85,54 +86,82 @@ def build_graph(stations: t.Dict[str, Station], raw_intervals: dict) -> nx.Graph
                 times = {}
                 for i in range(len(all_stations) - 1):
                     first_station = all_stations[i]
-                    target_station = all_stations[i + 1]
-                    times[(first_station, target_station)] = float(target_dict[target_station] - target_dict.get(first_station, 0))
+                    second_station = all_stations[i + 1]
+                    times[(first_station, second_station)] = float(
+                        target_dict[second_station] - target_dict.get(first_station, 0)
+                    )
 
-                for (first_station, second_station), travel_time in times.items():
-                    G.add_edge(
-                        first_station,
-                        second_station,
-                        weight=travel_time,
-                        lines={line_id}
-                        )
+                for (u, v), travel_time in times.items():
+                    G.add_edge(u, v, weight=travel_time, lines={line_id})
     return G
 
 
-def tsp_nearest_neighbor(G: nx.Graph, start: str) -> t.List[str]:
-    unvisited = set(G.nodes())
-    order = [start]
-    unvisited.remove(start)
-    current = start
+def cover_heuristic(current: str, unvisited: t.Set[str], G: nx.Graph) -> float:
+    """
+    An admissible heuristic:
+      - h1: minimum cost from the current node to any unvisited node.
+      - h2: cost of a minimum spanning tree (MST) covering the unvisited nodes.
+    """
+    if not unvisited:
+        return 0.0
+    # h1: minimum distance from current to any unvisited node
+    try:
+        h1 = min(nx.dijkstra_path_length(G, current, u, weight='weight') for u in unvisited)
+    except nx.NetworkXNoPath:
+        h1 = float('inf')
 
-    while unvisited:
-        next_station = min(unvisited, key=lambda x: nx.dijkstra_path_length(G, current, x, weight='weight'))
-        order.append(next_station)
-        unvisited.remove(next_station)
-        current = next_station
+    # h2: MST cost for the unvisited subgraph.
+    subG = G.subgraph(unvisited)
+    if subG.number_of_nodes() > 0:
+        mst = nx.minimum_spanning_tree(subG, weight='weight')
+        h2 = sum(data['weight'] for u, v, data in mst.edges(data=True))
+    else:
+        h2 = 0.0
 
-    order.append(start)
-    return order
-
-
-def full_tsp_path(G: nx.Graph, tsp_order: t.List[str]) -> t.List[str]:
-    full_route = []
-    for i in range(len(tsp_order) - 1):
-        leg = nx.dijkstra_path(G, tsp_order[i], tsp_order[i + 1], weight='weight')
-        if i > 0:
-            leg = leg[1:]
-        full_route.extend(leg)
-    return full_route
+    return h1 + h2
 
 
-def tsp_main(g, start_station):
-    tsp_order = tsp_nearest_neighbor(g, start_station)
-    full_route = full_tsp_path(g, tsp_order)
-    total_time = 0
-    for i in range(len(tsp_order) - 1):
-        leg_time = nx.dijkstra_path_length(g, tsp_order[i], tsp_order[i + 1], weight='weight')
-        total_time += leg_time
+def tsp_astar_cover(G: nx.Graph, start: str) -> t.Tuple[t.List[str], float]:
+    """
+    Uses A* search over states of the form (current_station, visited_set) to
+    find the route of minimum travel time that visits all stations (nodes).
 
-    return {'start_station': start_station, 'route': full_route, 'time': total_time}
+    The algorithm is allowed to revisit nodes if that leads to a lower overall cost.
+    Returns a tuple (route, total_time).
+    """
+    all_nodes = set(G.nodes())
+    # State: (f, cost_so_far, current, visited, route)
+    # where f = cost_so_far + heuristic(current, unvisited)
+    start_state = (cover_heuristic(start, all_nodes - {start}, G), 0.0, start, frozenset({start}), [start])
+    # Priority queue for A*
+    frontier = []
+    heapq.heappush(frontier, start_state)
+
+    # For pruning: best cost found so far for (current, visited) state.
+    best_cost: t.Dict[t.Tuple[str, frozenset], float] = {}
+
+    while frontier:
+        f, cost, current, visited, route = heapq.heappop(frontier)
+
+        # Goal test: all stations visited
+        if visited == all_nodes:
+            # Optionally, you could add the cost to return to the starting station.
+            return route, cost
+
+        state_key = (current, visited)
+        if state_key in best_cost and best_cost[state_key] <= cost:
+            continue
+        best_cost[state_key] = cost
+
+        for neighbor in G.neighbors(current):
+            travel_time = G[current][neighbor]['weight']
+            new_cost = cost + travel_time
+            new_visited = visited | {neighbor}  # even if neighbor was visited, union is harmless
+            new_route = route + [neighbor]
+            h = cover_heuristic(neighbor, all_nodes - new_visited, G)
+            heapq.heappush(frontier, (new_cost + h, new_cost, neighbor, new_visited, new_route))
+
+    return [], float('inf')  # No solution found (should not happen if G is connected)
 
 
 def main():
@@ -140,7 +169,15 @@ def main():
     g = build_graph(stations, raw_intervals)
 
     with multiprocessing.Pool() as pool:
-        results = pool.starmap(tsp_main, [(g, station) for station in stations])
+        results = pool.starmap(tsp_astar_cover, [(g, station) for station in stations])
+
+    results = [
+        {
+            'start': station,
+            'route': route,
+            'total_time': total_time
+        } for station, (route, total_time) in zip(stations, results)
+    ]
 
     with open('results.json', 'w') as f:
         json.dump(results, f, indent=4)
